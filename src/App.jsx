@@ -49,7 +49,17 @@
         <BarraDeBusca onBuscar={buscarclima}/>
         {clima && <Temperatura dados={clima}/>}
         {erro && <MensagemDeErro mensagem={erro}/>}
-      </div>
+        <div className="cidades-populares">
+          <p>Cidades populares:</p>
+            <div className="botoes-cidades">
+              <button onClick={() => buscarclima('São Paulo')}>🇧🇷 São Paulo</button>
+              <button onClick={() => buscarclima('Rio de Janeiro')}>🇧🇷 Rio de Janeiro</button>
+              <button onClick={() => buscarclima('Londres')}>🇬🇧 Londres</button>
+              <button onClick={() => buscarclima('Tokyo')}>🇯🇵 Tokyo</button>
+              <button onClick={() => buscarclima('Nova York')}>🇺🇸 Nova York</button>
+            </div>
+        </div>
+    </div>
     )
   }
   export default App

@@ -86,3 +86,33 @@ h1 {
   font-size: 0.9rem;
   opacity: 0.85;
 }
+.cidades-populares {
+  margin-top: 20px;
+}
+
+.cidades-populares p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.botoes-cidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.botoes-cidades button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.botoes-cidades button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
