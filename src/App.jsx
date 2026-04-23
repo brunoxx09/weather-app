@@ -2,7 +2,7 @@
  import BarraDeBusca from "./components/barradebusca"
  import Temperatura from "./components/temperatura"
  import MensagemDeErro from "./components/mensagemdeerro"
- import './app.css'
+ import './App.css'
  function App(){
   
   const [clima,setclima]= useState(null)
