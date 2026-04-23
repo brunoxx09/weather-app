@@ -59,7 +59,14 @@
               <button onClick={() => buscarclima('Nova York')}>🇺🇸 Nova York</button>
             </div>
         </div>
-    </div>
+          <div className="mapa-container">
+            <p>🌍 Mapa dia/noite ao vivo</p>
+            <img 
+             src="https://www.timeanddate.com/scripts/sunmap.php?iso=now" 
+              alt="Mapa dia e noite"
+              className="mapa-diaNoite"/>
+          </div>
+        </div>
     )
   }
   export default App

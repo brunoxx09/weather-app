@@ -116,3 +116,18 @@ h1 {
 .botoes-cidades button:hover {
   background: rgba(255, 255, 255, 0.2);
 }
+
+.mapa-container {
+  margin-top: 30px;
+}
+
+.mapa-container p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.mapa-diaNoite {
+  width: 100%;
+  border-radius: 15px;
+}
