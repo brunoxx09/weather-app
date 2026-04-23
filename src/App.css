@@ -79,3 +79,10 @@ h1 {
   max-width: 400px;
   margin: 0 auto;
 }
+.info-extra {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
